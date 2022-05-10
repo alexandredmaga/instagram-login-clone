@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.leftside {
+    margin-right: 0.885rem;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.90rem;
+    margin-right: 1.14rem;
+    margin-bottom: 1.15rem;
+    
+}
+
+.login {
+    background-color: white;
+    padding: 1rem;
+    width: 350px;
+    border:1px solid #dbdbdb;
+}
+
+.insta-logo {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input {
+    font-size: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 2.3px;
+    padding: 11px;
+    background-color: #fafafa;
+    margin-bottom: 5px;
+    width: 268px;
+    outline:none;
+
+}
+
+.form input:focus {
+    border: 1px solid #8e8e8e;
+}
+
+.form input::placeholder {
+    color:#8e8e8e;
+}
+
+.form button {
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    background-color:rgba(0,149,246,.3);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    width: 268px;
+    
+}
+
+.our {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 268px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.before {
+   width: 120px;
+   height: 1px;
+   background-color: #dbdbdb;
+}
+
+.our p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #8e8e8e;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.after{
+   width: 120px;
+   height: 1px;
+   background-color: #dbdbdb;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.facebook a {
+    text-decoration:none;
+    color: #385185;
+
+}
+
+.fa-facebook-square {
+    padding-right: 4px;
+    font-size: 1.1rem;
+}
+
+.face {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+    
+}
+
+.forgot {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 1.5rem;
+    width: 350px;
+    margin-top: 0.7rem;
+    font-size: 14px;
+    color: #262626;
+}
+
+.sign-up a {
+    text-decoration:none ;
+    color: #0095f6;
+    font-weight: bold;
+}
+
+.download-app p {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: #262626;
+}
+
+.download-app img {
+    width: 135px;
+}
+
+.appstore {
+    padding-right: 0.2rem ;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 1rem;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+footer li a{
+    color: #8e8e8e;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+footer p {
+    color: #8e8e8e;
+    margin: 1rem 0.5rem 5rem;
+}
+
+.copyright {
+    display: flex
+}
